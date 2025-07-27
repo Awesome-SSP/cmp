@@ -7,14 +7,19 @@
 Install the required Python package using pip:
 
 ```bash
-
+cd doc-forge
+npm install .
+npm i . --force
+npm start
 
 ```
 
 OR
 
 ```bash
+cd flask-server
 pip install -r requirement.txt
+python app.py
 ```
 
 | Variable Name | Description                     | Example           |

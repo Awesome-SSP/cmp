@@ -1,0 +1,12 @@
+COMPANY POLICY AGREEMENT
+
+Dear {{name}},
+
+As part of your employment beginning on {{doj}}, you are required to adhere to all company policies and guidelines.
+
+Your role as a {{designation}} requires you to uphold professional behavior, data privacy, and code of conduct outlined in the employee handbook. Your annual compensation will be {salary}.
+
+Please read the full policy document attached with your onboarding kit.
+
+Best regards,  
+HR Department
