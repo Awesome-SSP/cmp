@@ -31,6 +31,8 @@
 
 ## 📁 Project Structure
 
+```bash
+
 DocForge/
 ├── flask-server/
 │ ├── app.py
@@ -46,6 +48,8 @@ DocForge/
 │ │ └── App.js
 │ └── .env
 └── README.md
+
+```
 
 1. Navigate to the `doc-forge/` folder:
 ```bash
