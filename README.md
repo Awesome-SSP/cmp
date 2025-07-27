@@ -1,22 +1,12 @@
-# RPA Project
+# DocForge
+
+
 
 ## 🛠️ Installation
 
 Install the required Python package using pip:
 
 ```bash
-# Base RPA Framework
-pip install rpaframework
-
-# All extra libraries like Excel, Outlook, Telegram, etc.
-pip install "rpaframework[all]"
-
-# Playwright-based browser automation (used with `from robocorp import browser`)
-pip install robocorp-browser
-
-pip install rpaframework[excel]
-pip install rpaframework[email]
-pip install rpaframework[telegram]
 
 
 ```
@@ -31,8 +21,8 @@ pip install -r requirement.txt
 | ------------- | ------------------------------- | ----------------- |
 | `user`        | MySql user name                 | `admin`           |
 | `password`    | Database password of local host | `password`        |
-| `DB_USER`     | Database username               | `admin`           |
-| `DB_PASS`     | Database password               | `supersecurepass` |
+| `-------`     | Database username               | `admin`           |
+| `-------`     | Database password               | `supersecurepass` |
 | `DEBUG_MODE`  | Enable/disable debug mode       | `true` or `false` |
 
 ## Authors
