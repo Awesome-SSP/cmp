@@ -1,4 +1,4 @@
-# RPA Project 
+# RPA Project
 
 ## 🛠️ Installation
 
@@ -18,23 +18,23 @@ pip install rpaframework[excel]
 pip install rpaframework[email]
 pip install rpaframework[telegram]
 
+
 ```
 
+OR
 
+```bash
+pip install -r requirement.txt
+```
 
+| Variable Name | Description                     | Example           |
+| ------------- | ------------------------------- | ----------------- |
+| `user`        | MySql user name                 | `admin`           |
+| `password`    | Database password of local host | `password`        |
+| `DB_USER`     | Database username               | `admin`           |
+| `DB_PASS`     | Database password               | `supersecurepass` |
+| `DEBUG_MODE`  | Enable/disable debug mode       | `true` or `false` |
 
-
-| Variable Name | Description                       | Example                    |
-| ------------- | --------------------------------- | -------------------------- |
-| `user`        | MySql user name                   | `admin`                    |
-| `password`     | Database password of local host  | `password`                 |
-| `DB_USER`     | Database username                 | `admin`                    |
-| `DB_PASS`     | Database password                 | `supersecurepass`          |
-| `DEBUG_MODE`  | Enable/disable debug mode         | `true` or `false`          |
-
-
-
-  
 ## Authors
 
 - [@SSP](https://github.com/Awesome-SSP)
