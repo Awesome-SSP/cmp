@@ -7,8 +7,10 @@ export default function EmployeeForm() {
     doj: "",
     designation: "",
     salary: "",
+    email: "",
   });
-  const [password, setPassword] = useState(null);
+
+  // const [password, setPassword] = useState(null);
 
   const [pdfUrl, setPdfUrl] = useState(null);
 
@@ -25,10 +27,10 @@ export default function EmployeeForm() {
         { responseType: "blob" }
       );
 
-      const passRes = await axios.get(
-        `${process.env.REACT_APP_API_BASE}/api/get-password`
-      );
-      setPassword(passRes.data.password);
+      // const passRes = await axios.get(
+      //   `${process.env.REACT_APP_API_BASE}/api/get-password`
+      // );
+      // setPassword(passRes.data.password);
 
       const contentType = res.headers["content-type"];
       if (!contentType.includes("application/pdf")) {
@@ -66,7 +68,7 @@ export default function EmployeeForm() {
       </h2>
 
       <form onSubmit={handleSubmit}>
-        {["name", "doj", "designation", "salary"].map((field) => (
+        {["name", "doj", "designation", "salary", "email"].map((field) => (
           <div key={field} style={{ marginBottom: "20px" }}>
             <label
               style={{
@@ -126,9 +128,10 @@ export default function EmployeeForm() {
           >
             Download PDF
           </a>
-          <p style={{ color: "red", fontWeight: "bold" }}>
+
+          {/* <p style={{ color: "red", fontWeight: "bold" }}>
             Password to open the PDF: <code>{password}</code>
-          </p>
+          </p> */}
 
           <iframe
             src={pdfUrl}

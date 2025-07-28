@@ -1,13 +1,7 @@
 Dear {{ name }},
 
-We are pleased to offer you the position of {{ designation }} at our organization, with your employment commencing on {{ doj }}.
+We are pleased to offer you the position of {{ designation }} starting from {{ doj }}.
+Your salary will be ₹{{ salary }}.
 
-As part of this position, you will receive an annual compensation of {{ salary }}. This offer reflects our confidence in your potential and alignment with our mission.
-
-Please feel free to reach out if you have any questions before your start date.
-
-Welcome aboard!
-
-Sincerely,  
-HR Department
-
+Regards,
+Company HR
