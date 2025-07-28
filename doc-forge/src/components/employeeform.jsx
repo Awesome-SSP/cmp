@@ -7,8 +7,9 @@ export default function EmployeeForm() {
     doj: "",
     designation: "",
     salary: "",
+    email: "",
   });
-  const [password, setPassword] = useState(null);
+  // const [password, setPassword] = useState(null);
 
   const [pdfUrl, setPdfUrl] = useState(null);
 
@@ -20,15 +21,15 @@ export default function EmployeeForm() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `${process.env.REACT_APP_API_BASE}/api/generate-pdf`,
+        ` http://127.0.0.1:5000/api/generate-pdf`,
         formData,
         { responseType: "blob" }
       );
 
-      const passRes = await axios.get(
-        `${process.env.REACT_APP_API_BASE}/api/get-password`
-      );
-      setPassword(passRes.data.password);
+      // const passRes = await axios.get(
+      //   `${process.env.REACT_APP_API_BASE}/api/get-password`
+      // );
+      // setPassword(passRes.data.password);
 
       const contentType = res.headers["content-type"];
       if (!contentType.includes("application/pdf")) {
@@ -46,7 +47,23 @@ export default function EmployeeForm() {
       setPdfUrl(blobUrl);
     } catch (err) {
       console.error("PDF generation error:", err);
-      alert("Failed to generate PDF.");
+
+      if (err.response) {
+        const contentType = err.response.headers["content-type"];
+        const isJson = contentType && contentType.includes("application/json");
+
+        if (isJson) {
+          const reader = new FileReader();
+          reader.onload = () => {
+            console.error("Backend error message:", reader.result);
+          };
+          reader.readAsText(err.response.data);
+        } else {
+          console.error("Non-JSON error:", err.response);
+        }
+      }
+
+      // alert("Failed to generate PDF.");
     }
   };
 
@@ -66,7 +83,7 @@ export default function EmployeeForm() {
       </h2>
 
       <form onSubmit={handleSubmit}>
-        {["name", "doj", "designation", "salary"].map((field) => (
+        {["name", "doj", "designation", "salary", "email"].map((field) => (
           <div key={field} style={{ marginBottom: "20px" }}>
             <label
               style={{
@@ -126,9 +143,10 @@ export default function EmployeeForm() {
           >
             Download PDF
           </a>
-          <p style={{ color: "red", fontWeight: "bold" }}>
+
+          {/* <p style={{ color: "red", fontWeight: "bold" }}>
             Password to open the PDF: <code>{password}</code>
-          </p>
+          </p> */}
 
           <iframe
             src={pdfUrl}
