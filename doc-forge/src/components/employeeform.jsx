@@ -25,7 +25,9 @@ export default function EmployeeForm() {
         { responseType: "blob" }
       );
 
-      const passRes = await axios.get(`${process.env.REACT_APP_API_BASE}/api/get-password`);
+      const passRes = await axios.get(
+        `${process.env.REACT_APP_API_BASE}/api/get-password`
+      );
       setPassword(passRes.data.password);
 
       const contentType = res.headers["content-type"];
