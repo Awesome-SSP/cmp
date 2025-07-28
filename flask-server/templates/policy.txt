@@ -1,12 +1,24 @@
-COMPANY POLICY AGREEMENT
+COMPANY POLICY ACKNOWLEDGEMENT
 
 Dear {{name}},
 
-As part of your employment beginning on {{doj}}, you are required to adhere to all company policies and guidelines.
+Welcome to Google! As a part of your onboarding process, effective from {{doj}}, 
+we require your acknowledgment and commitment to our company policies and guidelines.
 
-Your role as a {{designation}} requires you to uphold professional behavior, data privacy, and code of conduct outlined in the employee handbook. Your annual compensation will be {salary}.
+Your position as {{designation}}, with an annual compensation of {{salary}}, 
+comes with both exciting opportunities and important responsibilities. 
+We uphold the highest standards of professional conduct, integrity, and data privacy, 
+as detailed in our Employee Handbook. 
+We encourage you to familiarize yourself with our guiding principles—collaboration, 
+innovation, and respect for all.
 
-Please read the full policy document attached with your onboarding kit.
+Please review the full policy document included in your onboarding materials, 
+and ensure you understand and comply with our company’s expectations.
 
-Best regards,  
+If you have any questions or require further clarification, our HR team is always here to help.
+
+Looking forward to achieving great things together!
+
+Best regards,
 HR Department
+Google

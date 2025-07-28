@@ -1,10 +1,21 @@
-NON-DISCLOSURE AGREEMENT (NDA)
+NON-DISCLOSURE AGREEMENT
 
-This Non-Disclosure Agreement is made between the company and {{name}}, who will join as a {{designation}} on {{doj}}.
+This Non-Disclosure Agreement (“Agreement”) is made between 
+Google (the “Company”) and {{name}}, 
+who will be joining us as a {{designation}} effective from {{doj}}.
 
-As part of your role, you may receive confidential and proprietary information. You agree not to disclose any such information during or after your employment.
+In the course of your employment, you may be entrusted with proprietary, 
+sensitive, or confidential information belonging to Google or its partners. 
+By signing this Agreement, you acknowledge your duty to maintain the strictest confidence 
+regarding any such information acquired during and after your employment with us. 
+You agree not to disclose, publish, or otherwise reveal any confidential information to 
+unauthorized parties without prior written consent from the Company.
 
-This agreement is effective from your date of joining.
+This Agreement is an essential part of our culture of trust, innovation, and mutual respect. 
+It is effective as of your date of joining.
 
-Sincerely,  
+We look forward to your valuable contributions and to upholding the standards that define Google.
+
+Sincerely,
 HR Department
+Google

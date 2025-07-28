@@ -1,13 +1,25 @@
-Dear {{ name }},
+OFFER OF EMPLOYMENT
 
-We are pleased to offer you the position of {{ designation }} at our organization, with your employment commencing on {{ doj }}.
+Dear {{name}},
 
-As part of this position, you will receive an annual compensation of {{ salary }}. This offer reflects our confidence in your potential and alignment with our mission.
+Congratulations! We are delighted to extend to you an offer for the position of {{designation}} at Google. 
+Your employment will commence on {{doj}}.
 
-Please feel free to reach out if you have any questions before your start date.
+We have designed an annual compensation package of {{salary}}, 
+reflecting our confidence in your abilities and our commitment to attracting the very best talent.
+As you join our team, you’ll play a key role in shaping the future of technology and advancing Google’s 
+mission to organize the world’s information and make it universally accessible and useful.
 
-Welcome aboard!
+At Google, you’ll be surrounded by passionate, innovative minds from around the globe, 
+working together in a culture of respect, curiosity, and continuous learning. 
+We are committed to your professional growth and to providing an environment where you can thrive.
 
-Sincerely,  
+Should you have any questions prior to your start date, please don’t hesitate to contact us. 
+We are here to support you every step of the way.
+
+Welcome to the Google family!
+
+Sincerely,
+
 HR Department
-
+Google
